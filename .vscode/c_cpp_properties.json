@@ -15,8 +15,10 @@
                 ".\\lib\\Servo",
                 ".\\lib\\qiArdlib",
                 ".\\lib\\qiArdlib\\avr",
+                ".\\lib\\DS1302",
                 ".\\lib\\Dht11",
-                ".\\lib\\Core"
+                ".\\lib\\Core",
+                ".\\lib\\Afstandssensor_-_HCSR04\\src"
             ],
             "defines": [
                 "${default}",

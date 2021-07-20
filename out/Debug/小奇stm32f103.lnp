@@ -34,6 +34,8 @@
 .\out\Debug\itoa.o
 .\out\Debug\qiArdlib.o
 .\out\Debug\startup_stm32f10x_md.o
+.\out\Debug\afstandssensor.o
+.\out\Debug\DS1302.o
 .\out\Debug\dht11.o
 .\out\Debug\Servo.o
 .\out\Debug\HardwareSerial.o

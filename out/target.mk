@@ -21,8 +21,10 @@ INCLUDE_FOLDERS += lib/STM32F10x_FWLib/inc
 INCLUDE_FOLDERS += lib/Servo
 INCLUDE_FOLDERS += lib/qiArdlib
 INCLUDE_FOLDERS += lib/qiArdlib/avr
+INCLUDE_FOLDERS += lib/DS1302
 INCLUDE_FOLDERS += lib/Dht11
 INCLUDE_FOLDERS += lib/Core
+INCLUDE_FOLDERS += lib/Afstandssensor_-_HCSR04/src
 
 # library search folders
 
@@ -62,6 +64,8 @@ C_SOURCES += lib/qiArdlib/itoa.c
 C_SOURCES += lib/qiArdlib/qiArdlib.c
 
 # cpp source files
+CPP_SOURCES += lib/Afstandssensor_-_HCSR04/src/afstandssensor.cpp
+CPP_SOURCES += lib/DS1302/DS1302.cpp
 CPP_SOURCES += lib/Dht11/dht11.cpp
 CPP_SOURCES += lib/Servo/Servo.cpp
 CPP_SOURCES += lib/qiArdlib/HardwareSerial.cpp

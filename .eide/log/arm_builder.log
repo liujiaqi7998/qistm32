@@ -14,3 +14,42 @@
 [2021-07-20 14:37:03]	[done]
 	build successfully !
 
+[2021-07-20 14:48:47]	compilation failed at : "e:\singlechip\project\20210718\lib\Afstandssensor_-_HCSR04\src\afstandssensor.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] doneList) [0x000e4] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x00f14] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+
+[2021-07-20 14:49:28]	[done]
+	build successfully !
+
+[2021-07-20 14:50:37]	[done]
+	build successfully !
+
+[2021-07-20 14:52:18]	[done]
+	build successfully !
+
+[2021-07-20 14:59:16]	[done]
+	build successfully !
+
+[2021-07-20 15:05:54]	[done]
+	build successfully !
+
+[2021-07-20 15:07:59]	compilation failed at : "e:\singlechip\project\20210718\lib\IRremote\src\ir_Sanyo.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] doneList) [0x000e4] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x00f14] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+
+[2021-07-20 15:09:18]	[done]
+	build successfully !
+
+[2021-07-20 15:10:34]	compilation failed at : "e:\singlechip\project\20210718\lib\ArduinoJson\extras\tests\MemoryPool\StringCopier.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] doneList) [0x000e4] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x00f14] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+
+[2021-07-20 15:11:13]	[done]
+	build successfully !
+
+[2021-07-20 15:12:56]	compilation failed at : "e:\singlechip\project\20210718\lib\DS1302\DS1302.cpp", exit code: 1
+  at unify_builder.Program.Main (System.String[] args) [0x00e9c] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+
+[2021-07-20 15:13:08]	[done]
+	build successfully !
+
