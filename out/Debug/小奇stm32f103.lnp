@@ -11,12 +11,27 @@
 .\out\Debug\timer.o
 .\out\Debug\misc.o
 .\out\Debug\stm32f10x_adc.o
+.\out\Debug\stm32f10x_bkp.o
+.\out\Debug\stm32f10x_can.o
+.\out\Debug\stm32f10x_cec.o
+.\out\Debug\stm32f10x_crc.o
+.\out\Debug\stm32f10x_dac.o
+.\out\Debug\stm32f10x_dbgmcu.o
+.\out\Debug\stm32f10x_dma.o
 .\out\Debug\stm32f10x_exti.o
+.\out\Debug\stm32f10x_flash.o
+.\out\Debug\stm32f10x_fsmc.o
 .\out\Debug\stm32f10x_gpio.o
+.\out\Debug\stm32f10x_i2c.o
+.\out\Debug\stm32f10x_iwdg.o
+.\out\Debug\stm32f10x_pwr.o
 .\out\Debug\stm32f10x_rcc.o
+.\out\Debug\stm32f10x_rtc.o
+.\out\Debug\stm32f10x_sdio.o
 .\out\Debug\stm32f10x_spi.o
 .\out\Debug\stm32f10x_tim.o
 .\out\Debug\stm32f10x_usart.o
+.\out\Debug\stm32f10x_wwdg.o
 .\out\Debug\system_stm32f10x.o
 .\out\Debug\startup_stm32f10x_md.o
 .\out\Debug\HardwareSerial.o
@@ -30,4 +45,5 @@
 .\out\Debug\Wire.o
 .\out\Debug\WireBase.o
 .\out\Debug\new.o
+.\out\Debug\Servo.o
 .\out\Debug\main.o -o .\out\Debug\Ğ¡Ææstm32f103.axf

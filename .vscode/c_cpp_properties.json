@@ -9,12 +9,13 @@
                 "C:\\Keil_v5\\ARM\\ARMCC\\include",
                 "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
                 ".\\src",
-                ".\\hal\\STM32F10x_StdPeriph_Driver",
-                ".\\hal\\STM32F10x_StdPeriph_Driver\\src",
-                ".\\hal\\STM32F10x_StdPeriph_Driver\\inc",
-                ".\\ArduinoAPI",
-                ".\\ArduinoAPI\\avr",
-                ".\\Core"
+                ".\\lib\\STM32F10x_FWLib",
+                ".\\lib\\STM32F10x_FWLib\\src",
+                ".\\lib\\STM32F10x_FWLib\\inc",
+                ".\\lib\\Servo",
+                ".\\lib\\Core",
+                ".\\lib\\ArduinoAPI",
+                ".\\lib\\ArduinoAPI\\avr"
             ],
             "defines": [
                 "${default}",
