@@ -60,5 +60,3 @@
 .\out\Debug\main.o: .\lib\qiArdlib\libmaple_types.h
 .\out\Debug\main.o: .\lib\qiArdlib\Printable.h
 .\out\Debug\main.o: .\lib\qiArdlib\Stream.h
-.\out\Debug\main.o: .\lib\Dht11\dht11.h
-.\out\Debug\main.o: .\lib\qiArdlib\WProgram.h
