@@ -1,0 +1,6 @@
+r
+halt
+loadfile "e:\singlechip\project\20210718\out\Debug\Ð¡Ææstm32f103.hex"
+r
+go
+exit

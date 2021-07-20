@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "win32",
+            "includePath": [
+                "${default}",
+                ".\\.eide\\deps",
+                ".\\lib\\CMSIS",
+                "C:\\Keil_v5\\ARM\\ARMCC\\include",
+                "C:\\Keil_v5\\ARM\\ARMCC\\include\\rw",
+                ".\\src",
+                ".\\hal\\STM32F10x_StdPeriph_Driver",
+                ".\\hal\\STM32F10x_StdPeriph_Driver\\src",
+                ".\\hal\\STM32F10x_StdPeriph_Driver\\inc",
+                ".\\ArduinoAPI",
+                ".\\ArduinoAPI\\avr",
+                ".\\Core"
+            ],
+            "defines": [
+                "${default}",
+                "__VSCODE_CPPTOOL",
+                "USE_STDPERIPH_DRIVER",
+                "STM32F10X_HD"
+            ],
+            "intelliSenseMode": "${default}",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "${default}"
+            },
+            "forcedInclude": [
+                "c:\\Users\\liujiaqi\\.vscode\\extensions\\cl.eide-2.10.0\\bin\\include\\internal_headers\\armcc_intr.h"
+            ]
+        }
+    ],
+    "version": 4
+}

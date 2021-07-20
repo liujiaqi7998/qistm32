@@ -1,0 +1,33 @@
+--cpu Cortex-M3 --library_type=microlib --scatter "e:/singlechip/project/20210718/out/Debug/Ð¡Ææstm32f103.sct" --strict --summary_stderr --info summarysizes --map --xref --callgraph --symbols --info sizes --info totals --info unused --info veneers
+--list .\out\Debug\Ð¡Ææstm32f103.map
+.\out\Debug\dtostrf.o
+.\out\Debug\itoa.o
+.\out\Debug\qiArdlib.o
+.\out\Debug\adc.o
+.\out\Debug\delay.o
+.\out\Debug\exti.o
+.\out\Debug\gpio.o
+.\out\Debug\pwm.o
+.\out\Debug\timer.o
+.\out\Debug\misc.o
+.\out\Debug\stm32f10x_adc.o
+.\out\Debug\stm32f10x_exti.o
+.\out\Debug\stm32f10x_gpio.o
+.\out\Debug\stm32f10x_rcc.o
+.\out\Debug\stm32f10x_spi.o
+.\out\Debug\stm32f10x_tim.o
+.\out\Debug\stm32f10x_usart.o
+.\out\Debug\system_stm32f10x.o
+.\out\Debug\startup_stm32f10x_md.o
+.\out\Debug\HardwareSerial.o
+.\out\Debug\IPAddress.o
+.\out\Debug\Print.o
+.\out\Debug\SPI.o
+.\out\Debug\Stream.o
+.\out\Debug\Tone.o
+.\out\Debug\WMath.o
+.\out\Debug\WString.o
+.\out\Debug\Wire.o
+.\out\Debug\WireBase.o
+.\out\Debug\new.o
+.\out\Debug\main.o -o .\out\Debug\Ð¡Ææstm32f103.axf
