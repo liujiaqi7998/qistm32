@@ -1,3 +1,13 @@
 [2021-07-20 14:25:02]	[done]
 	build successfully !
 
+[2021-07-20 14:27:12]	[done]
+	build successfully !
+
+[2021-07-20 14:29:43]	compilation failed at : "e:\singlechip\project\20210718\src\main.cpp", exit code: 1
+  at unify_builder.Program.compileByMulThread (System.Int32 thrNum, unify_builder.CmdGenerator+CmdInfo[] cmds, System.Collections.Generic.List`1[T] doneList) [0x000e4] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+  at unify_builder.Program.Main (System.String[] args) [0x00f14] in <2975003d1d8e441bad1fa5b8a433098f>:0 
+
+[2021-07-20 14:30:17]	[done]
+	build successfully !
+

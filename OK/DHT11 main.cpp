@@ -1,3 +1,7 @@
+#include "qiArdlib.h"
+#include "dht11.h"
+
+
 double Fahrenheit(double celsius) 
 {
         return 1.8 * celsius + 32;
@@ -34,11 +38,9 @@ double dewPointFast(double celsius, double humidity)
         return Td;
 }
 
-#include <dht11.h>
 
 dht11 DHT11;
-
-#define DHT11PIN 2
+#define DHT11PIN PB1
 
 void setup()
 {
@@ -51,7 +53,7 @@ void setup()
 
 void loop()
 {
-  Serial.println("\n");
+Serial.println("\n");
 
   int chk = DHT11.read(DHT11PIN);
 
@@ -91,4 +93,19 @@ void loop()
   Serial.println(dewPointFast(DHT11.temperature, DHT11.humidity));
 
   delay(2000);
+}
+
+/**
+  * @brief  Main Function
+  * @param  None
+  * @retval None
+  */
+int main(void)
+{
+  NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);
+  SysClock_Init(F_CPU_72MHz);
+  Delay_Init();
+  setup();
+  for (;;)
+    loop();
 }

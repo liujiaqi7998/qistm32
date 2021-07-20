@@ -34,11 +34,11 @@
 .\out\Debug\pwm.o: .\lib\STM32F10x_FWLib\inc\stm32f10x_wwdg.h
 .\out\Debug\pwm.o: .\lib\STM32F10x_FWLib\inc\misc.h
 .\out\Debug\pwm.o: .\lib\Core\timer.h
-.\out\Debug\pwm.o: .\lib\ArduinoAPI\qiArdlib.h
+.\out\Debug\pwm.o: .\lib\qiArdlib\qiArdlib.h
 .\out\Debug\pwm.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
 .\out\Debug\pwm.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
-.\out\Debug\pwm.o: .\lib\ArduinoAPI\binary16.h
-.\out\Debug\pwm.o: .\lib\ArduinoAPI\avr/pgmspace.h
+.\out\Debug\pwm.o: .\lib\qiArdlib\binary16.h
+.\out\Debug\pwm.o: .\lib\qiArdlib\avr/pgmspace.h
 .\out\Debug\pwm.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\inttypes.h
 .\out\Debug\pwm.o: .\lib\Core\adc.h
 .\out\Debug\pwm.o: .\lib\Core\delay.h

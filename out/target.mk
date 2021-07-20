@@ -19,16 +19,14 @@ INCLUDE_FOLDERS += lib/STM32F10x_FWLib
 INCLUDE_FOLDERS += lib/STM32F10x_FWLib/src
 INCLUDE_FOLDERS += lib/STM32F10x_FWLib/inc
 INCLUDE_FOLDERS += lib/Servo
+INCLUDE_FOLDERS += lib/qiArdlib
+INCLUDE_FOLDERS += lib/qiArdlib/avr
+INCLUDE_FOLDERS += lib/Dht11
 INCLUDE_FOLDERS += lib/Core
-INCLUDE_FOLDERS += lib/ArduinoAPI
-INCLUDE_FOLDERS += lib/ArduinoAPI/avr
 
 # library search folders
 
 # c source files
-C_SOURCES += lib/ArduinoAPI/dtostrf.c
-C_SOURCES += lib/ArduinoAPI/itoa.c
-C_SOURCES += lib/ArduinoAPI/qiArdlib.c
 C_SOURCES += lib/Core/adc.c
 C_SOURCES += lib/Core/delay.c
 C_SOURCES += lib/Core/exti.c
@@ -59,20 +57,24 @@ C_SOURCES += lib/STM32F10x_FWLib/src/stm32f10x_tim.c
 C_SOURCES += lib/STM32F10x_FWLib/src/stm32f10x_usart.c
 C_SOURCES += lib/STM32F10x_FWLib/src/stm32f10x_wwdg.c
 C_SOURCES += lib/STM32F10x_FWLib/system_stm32f10x.c
+C_SOURCES += lib/qiArdlib/dtostrf.c
+C_SOURCES += lib/qiArdlib/itoa.c
+C_SOURCES += lib/qiArdlib/qiArdlib.c
 
 # cpp source files
-CPP_SOURCES += lib/ArduinoAPI/HardwareSerial.cpp
-CPP_SOURCES += lib/ArduinoAPI/IPAddress.cpp
-CPP_SOURCES += lib/ArduinoAPI/Print.cpp
-CPP_SOURCES += lib/ArduinoAPI/SPI.cpp
-CPP_SOURCES += lib/ArduinoAPI/Stream.cpp
-CPP_SOURCES += lib/ArduinoAPI/Tone.cpp
-CPP_SOURCES += lib/ArduinoAPI/WMath.cpp
-CPP_SOURCES += lib/ArduinoAPI/WString.cpp
-CPP_SOURCES += lib/ArduinoAPI/Wire.cpp
-CPP_SOURCES += lib/ArduinoAPI/WireBase.cpp
-CPP_SOURCES += lib/ArduinoAPI/new.cpp
+CPP_SOURCES += lib/Dht11/dht11.cpp
 CPP_SOURCES += lib/Servo/Servo.cpp
+CPP_SOURCES += lib/qiArdlib/HardwareSerial.cpp
+CPP_SOURCES += lib/qiArdlib/IPAddress.cpp
+CPP_SOURCES += lib/qiArdlib/Print.cpp
+CPP_SOURCES += lib/qiArdlib/SPI.cpp
+CPP_SOURCES += lib/qiArdlib/Stream.cpp
+CPP_SOURCES += lib/qiArdlib/Tone.cpp
+CPP_SOURCES += lib/qiArdlib/WMath.cpp
+CPP_SOURCES += lib/qiArdlib/WString.cpp
+CPP_SOURCES += lib/qiArdlib/Wire.cpp
+CPP_SOURCES += lib/qiArdlib/WireBase.cpp
+CPP_SOURCES += lib/qiArdlib/new.cpp
 CPP_SOURCES += src/main.cpp
 
 # asm source files

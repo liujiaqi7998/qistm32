@@ -13,9 +13,10 @@
                 ".\\lib\\STM32F10x_FWLib\\src",
                 ".\\lib\\STM32F10x_FWLib\\inc",
                 ".\\lib\\Servo",
-                ".\\lib\\Core",
-                ".\\lib\\ArduinoAPI",
-                ".\\lib\\ArduinoAPI\\avr"
+                ".\\lib\\qiArdlib",
+                ".\\lib\\qiArdlib\\avr",
+                ".\\lib\\Dht11",
+                ".\\lib\\Core"
             ],
             "defines": [
                 "${default}",

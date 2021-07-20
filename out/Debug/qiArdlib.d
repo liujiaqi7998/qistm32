@@ -1,9 +1,9 @@
-.\out\Debug\qiArdlib.o: .\lib\ArduinoAPI\qiArdlib.c
-.\out\Debug\qiArdlib.o: .\lib\ArduinoAPI\qiArdlib.h
+.\out\Debug\qiArdlib.o: .\lib\qiArdlib\qiArdlib.c
+.\out\Debug\qiArdlib.o: .\lib\qiArdlib\qiArdlib.h
 .\out\Debug\qiArdlib.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdlib.h
 .\out\Debug\qiArdlib.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdbool.h
-.\out\Debug\qiArdlib.o: .\lib\ArduinoAPI\binary16.h
-.\out\Debug\qiArdlib.o: .\lib\ArduinoAPI\avr/pgmspace.h
+.\out\Debug\qiArdlib.o: .\lib\qiArdlib\binary16.h
+.\out\Debug\qiArdlib.o: .\lib\qiArdlib\avr/pgmspace.h
 .\out\Debug\qiArdlib.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\inttypes.h
 .\out\Debug\qiArdlib.o: C:\Keil_v5\ARM\ARMCC\bin\..\include\stdint.h
 .\out\Debug\qiArdlib.o: .\lib\Core\mcu_type.h
