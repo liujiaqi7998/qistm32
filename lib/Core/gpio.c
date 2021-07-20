@@ -187,7 +187,6 @@ void GPIOx_Init(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin_x, GPIOMode_TypeDef GPIO_
     GPIO_Init(GPIOx, &GPIO_InitStructure);
 }
 
-
 /**
   * @brief  禁用JTAG引脚
   * @param  无

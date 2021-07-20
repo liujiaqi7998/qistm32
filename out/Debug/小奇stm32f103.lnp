@@ -37,6 +37,7 @@
 .\out\Debug\afstandssensor.o
 .\out\Debug\DS1302.o
 .\out\Debug\dht11.o
+.\out\Debug\Qi_DAC.o
 .\out\Debug\Servo.o
 .\out\Debug\HardwareSerial.o
 .\out\Debug\IPAddress.o

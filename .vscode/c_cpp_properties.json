@@ -13,6 +13,7 @@
                 ".\\lib\\STM32F10x_FWLib\\src",
                 ".\\lib\\STM32F10x_FWLib\\inc",
                 ".\\lib\\Servo",
+                ".\\lib\\Qi_DAC",
                 ".\\lib\\qiArdlib",
                 ".\\lib\\qiArdlib\\avr",
                 ".\\lib\\DS1302",
