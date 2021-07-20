@@ -12,6 +12,7 @@ void setup()
 
 void loop()
 {
+  
   Serial.print("1");
 
   Serial2.print("2");
